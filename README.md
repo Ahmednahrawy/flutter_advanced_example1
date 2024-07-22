@@ -28,6 +28,9 @@
 - App notifies the user of the task before starting using `flutter_local_notifications`.
 - Our App reminds users every day at 9 PM ⏰to write tasks for tomorrow.
 
+
+## 🚀 🎨 System Design
+
 ## 🤳 Screens
 
 - **Splash Screen:** Wait for 3 seconds then navigate to `On-Boarding Screens`. 
