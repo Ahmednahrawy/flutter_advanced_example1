@@ -5,6 +5,8 @@ import 'package:flutter_advanced_example1/features/onboarding/onboarding_screen.
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
+    final arguments = settings.arguments;
+    
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(
