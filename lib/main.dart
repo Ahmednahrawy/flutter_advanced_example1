@@ -4,6 +4,7 @@ import 'package:flutter_advanced_example1/doc_app.dart';
 
 void main() {
   runApp(DocApp(
+    
     appRouter: AppRouter(),
   ));
 }
