@@ -4,7 +4,8 @@ import 'package:flutter_advanced_example1/features/login/ui/widgets/login_screen
 import 'package:flutter_advanced_example1/features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
-  Route generateRoute(RouteSettings settings) {
+
+  static Route<dynamic> generateRoute(RouteSettings settings) {
     final arguments = settings.arguments;
     
     switch (settings.name) {
