@@ -1,5 +1,3 @@
-import 'dart:nativewrappers/_internal/vm/lib/ffi_allocation_patch.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_example1/core/routing/app_router.dart';
 import 'package:flutter_advanced_example1/core/routing/routes.dart';
@@ -23,7 +21,7 @@ class DocApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
         ),
         initialRoute: Routes.onBoardingScreen,
-        onGenerateRoute: appRouter.call(),
+        onGenerateRoute: appRouter.generateRoute,
       ),
     );
   }

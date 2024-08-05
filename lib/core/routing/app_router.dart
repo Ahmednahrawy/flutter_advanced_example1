@@ -5,7 +5,7 @@ import 'package:flutter_advanced_example1/features/onboarding/onboarding_screen.
 
 class AppRouter {
 
-  static Route<dynamic> generateRoute(RouteSettings settings) {
+  Route? generateRoute(RouteSettings settings) {
     final arguments = settings.arguments;
     
     switch (settings.name) {
